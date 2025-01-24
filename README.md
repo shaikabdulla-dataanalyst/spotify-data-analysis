@@ -2,7 +2,6 @@
 
 Creating random table 
 
--- create table
 DROP TABLE IF EXISTS spotify;
 CREATE TABLE spotify (
     artist VARCHAR(255),
