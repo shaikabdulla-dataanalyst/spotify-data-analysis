@@ -4,6 +4,22 @@
 
 Creating random table 
 
+- Step 14 : Calculated column was created in which, customers were grouped into various age groups.
+
+for creating new column following DAX expression was written;
+       
+        Age Group = 
+        
+        if(airline_passenger_satisfaction[Age]<=25, "0-25 (25 included)",
+        
+        if(airline_passenger_satisfaction[Age]<=50, "25-50 (50 included)",
+        
+        if(airline_passenger_satisfaction[Age]<=75, "50-75 (75 included)",
+        
+        "75-100 (100 included)")))
+        
+Snap of new calculated column ,
+
 DROP TABLE IF EXISTS spotify;
 CREATE TABLE spotify (
     artist VARCHAR(255),
