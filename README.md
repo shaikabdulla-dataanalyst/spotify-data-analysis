@@ -1,4 +1,4 @@
-https://github.com/shaikabdulla-dataanalyst/spotify-data-analysis/blob/88a4994ac1893cc60043e20ef172a93d72770114/Screenshot%202024-10-26%20202512.png
+![image alt](https://github.com/shaikabdulla-dataanalyst/spotify-data-analysis/blob/88a4994ac1893cc60043e20ef172a93d72770114/Screenshot%202024-10-26%20202512.png)
 
 # spotify-data-analysis
 
